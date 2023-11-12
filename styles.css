@@ -72,6 +72,8 @@ nav ul {
     margin: 69px 0;
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,8 +98,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 2rem;
-    row-gap: 1rem;
+    gap: 1rem 2rem;
     margin-top: 1rem;
 }
 
@@ -114,6 +115,8 @@ nav ul {
     text-align: center;
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #location h2 {
